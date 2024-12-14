@@ -1,0 +1,9 @@
+div{
+    padding: 30px;
+    margin:auto;
+    width: 200px;
+    border: 10px solid red;
+    outline: 10px solid blue;
+    outline-offset: 20px;
+    margin-top: 250px;
+}

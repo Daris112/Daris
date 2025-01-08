@@ -13,3 +13,11 @@ body{
     width: 400px;
     background-image: url("nature2.jpeg");
 }
+ 
+
+#div2{
+    bottom: 1px solid black;
+    height: 400px;
+    width: 400px;
+    background: aqua url("nature2.jpeg") no-repeat 100% scroll;
+}

@@ -1,0 +1,31 @@
+a:link{
+    color: rgb(252, 185, 0);
+}
+a:visited{
+    color: chartreuse;
+}
+a:hover{
+    color: rgb(234, 255, 9);
+    font-size: 25px;
+    background-color: aqua;
+}
+a:active{
+    color: yellow;
+}
+
+#a1:link{
+    color: red;
+    text-decoration: none;
+}
+#a1:visited{
+    color: chartreuse;
+}
+#a1:hover{
+    text-decoration: underline;
+
+    font-size: unset;
+    background-color: unset;
+}
+#a1:active{
+    color: yellow;
+}

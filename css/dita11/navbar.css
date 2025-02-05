@@ -30,19 +30,67 @@ ul li a:hover{
     font-size: 20px;
 }
 
-.dropdown-content{
-    display: none;
+.dropbtn {
+  text-decoration: none;
+  color: white;
+  padding: 14px 20px;
+  display: block;
+  background-color: #333;
+  border: none;
 }
 
 .dropbtn:hover {
-    display: block;
+  background-color: green;
+  text-decoration: underline;
+  font-size: 20px;
 }
 
-.column{
-    list-style: none;
-    position: absolute;
-    top: 100;
-    left: 0;
-    width: 150px;
+.dropdown:hover .dropdown-content {
+  display: block;
 }
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  z-index: 1;
+  top: 100%; 
+  left: 0;
+}
+
+
+.dropdown-content .row {
+  display: flex;
+  background: #f9f9f9;
+}
+
+.dropdown-content .column {
+  padding: 10px;
+  width: 150px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+  background-color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+
+
+
+
 

@@ -3,7 +3,7 @@
     margin: auto;
     padding: 20px;
     width: 470px;
-    height: 700px;
+    height: 620px;
 }
 
 #input1{
@@ -107,3 +107,12 @@
     font-size: 13px;
 }
 
+#input3{
+    margin-top: 30px;
+    margin-right:100px ;
+    width: 420px;
+    height: 50px;
+    background-color: crimson;
+    color: white;
+    font-size: 15px;
+}

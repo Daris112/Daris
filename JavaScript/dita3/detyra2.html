@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = 5;
+        var s = a*a
+        document.write("Siperfaqja eshte:"+s+"cm<sup>2</sup>")
+        document.write("<br>")
+        var p = a*4
+        document.write("Perimetri eshte:"+p+"cm")
+    </script>
+    <p id="p1"></p>
+    <br>
+    <button onclick="document.getElementById('p1').innerHTML='Siperfaqja eshte:'+s+'cm<sup>2</sup>' ">Siperfaqja</button>
+    <br><br>
+    <p id="p2"></p>
+    <button onclick="document.getElementById('p2').innerHTML='Perimetri eshte:'+p+'cm' ">Perimetri</button>
+</body>
+</html>

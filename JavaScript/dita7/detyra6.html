@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var x = prompt("Shenoje numrin");
+        var y = x % 2;
+        if(y==0){
+        document.write("Vlera e variables eshte qift")
+    }
+    else 
+    {
+        document.write("Vlera e variables eshte tek")
+    }
+    
+    </script>
+    <br><br>
+    <script>
+        var a = prompt("Shenoje numrin");
+        if(a>0)
+        {
+            document.write("Vlera e variables eshte numri pozitiv")
+        }
+        else if(a<0)
+        {
+            document.write("Vlera e variables eshte numri negativ")
+        }
+        else
+        {
+            document.write("Vlera e variables eshte 0")
+        }
+    </script>
+    <br><br>
+    <script>
+        var numbers1 = [1,2,3,5,6,9];
+        numbers1.sort();
+        var x = numbers1[0];
+        if(x<2)
+    {
+        document.write("Numri eshte me i vogel se 2")
+    }
+    else if(x==2 || x>2 && x<6)
+    {
+        document.write("Numri eshte me e madhe ose barabart me 2 dhe me e vogel se 6")
+    }
+    else if(x==7)
+    {
+        document.write("Numri eshte barabart me 7")
+    }
+    else{
+        documemt.write("Numri eshte me e madhe se 7 ose e barabart me 9")
+    }
+    </script>
+    <br><br>
+    <script>
+         var x = prompt('Shenoje ketu');
+        var z = parseFloat(x);
+        var y;
+        switch(z)
+        {
+            case 1:
+                y="januar";
+                break;
+            
+            case 2:
+                y="februar";
+                break;
+            
+            case 3:
+                y="mart";
+                break;
+
+            case 4:
+                y="april";
+                break;
+            
+            case 5:
+                y="maj";
+                break;
+            
+            case 6:
+                y="jun";
+                break;
+            
+            case 7:
+                y="jul";
+                break;
+
+            case 8:
+                y="avgust";
+                break;
+
+            case 9:
+                y="septembar";
+                break;
+
+            case 10:
+                y="oktobar";
+                break;
+
+            case 11:
+                y="novembar";
+                break;
+            
+            case 12:
+                y="decembar";
+                break;
+
+            default:
+                y="asnjeri";
+        }
+        document.write(y)
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var date = new Date();
+        document.write(date.getDate()+"/"+(date.getMonth()+1)+"/"+date.getFullYear());
+    </script>
+    <br><br>
+    <pre id="p1"></pre>
+
+    <script>
+        let output = '';
+        for (let i = 1; i <= 5; i++) {
+            for (let j = 1; j <= 3; j++) {
+                output += i ;
+            }
+            output += '\n';
+        }
+        document.getElementById('p1').textContent = output;
+    </script>
+    
+        <p id="p3" style="color:blue"></p>
+		<script>
+			var vargu = ['Prizren','Prishtine','Ferizaj','Malisheve','Rahovec','Gjakove'];
+			
+			var y = vargu.length();
+			var z = '';
+			var a=vargu.sort()
+			
+			if(y<5)
+			{
+			for(x=0;x<=y;x++)
+			{
+				z=(vargu[x]+' eshte '+(x+1)+'<br>')
+			}
+			document.getElementById('p3').innerHTML=z;
+			}
+			else
+			{
+			for(x=1;y>=x;y++);
+			{
+				z=(vargu[x]+' eshte '+(y+1)+'<br>')
+			}
+			document.getElementbyId('p3').innerHTML=z;
+            }
+			
+			
+			
+		
+ 	
+    </script>
+    <br><br>
+    <script>
+        var a = prompt("Shenoje numrin");
+        if(a>0)
+        {
+            document.write("Vlera e variables eshte numri pozitiv")
+        }
+        else if(a<0)
+        {
+            document.write("Vlera e variables eshte numri negativ")
+        }
+        else
+        {
+            document.write("Vlera e variables eshte 0")
+        }
+    </script>
+    <br><br>
+    <script>
+        var a = 5;
+        var b = 435;
+        var c = 3233;
+        if(a>b&&a>c)
+    {
+        document.write(a)
+    }
+    else if(b>a&&b>c)
+    {
+        document.write(b)
+    }
+    else if(c>a&&c>b)
+    {
+        document.write(c)
+    }
+
+  
+    </script>
+</body>
+</html>

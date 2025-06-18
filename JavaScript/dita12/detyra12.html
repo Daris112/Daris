@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para">Prizren</p>
+    <p id="para1"></p>
+    <button onclick="ndrroje()">CLick</button>
+    <script>
+        function ndrroje()
+        {
+            var x = document.getElementById('para').innerHTML;
+            document.getElementById('para1').innerHTML= x + " Urime!";
+            document.getElementById('para').style.visibility='hidden';
+        }
+    </script>
+
+    <h1 id="h11">Daris</h1>
+    <button onclick="document.getElementById('h11').style.color='red'">Click</button>
+    <button onclick="document.getElementById('h11').style.fontSize ='45px'">Click</button>
+
+    <br><br>
+    
+
+    <button onclick="document.body.style.backgroundColor='blue'">Blue</button>
+    <button onclick="document.body.style.backgroundColor='white'">White</button>
+
+    <p id="p2">Daris</p>
+    <button onclick="ndrroje2()">Click</button>
+    <script>
+        function ndrroje2()
+        {
+            document.getElementById('p2').style.color='blue';
+            document.getElementById('p2').style.fontSize='45px';
+        }
+    </script>
+
+<p id="teksti" onclick="bejeKaltert()" ondblclick="bejeGjelbert()">
+    Ky është një paragraf që reagon ndaj klikimeve.
+  </p>
+  
+  <script>
+    function bejeKaltert() {
+      document.getElementById("teksti").style.color = "blue";
+    }
+  
+    function bejeGjelbert() {
+      document.getElementById("teksti").style.color = "green";
+    }
+  </script>
+  <br>
+    <h1>Mirë se vini!</h1>
+    <p>Provo të klikosh kudo në këtë faqe me maus.</p>
+  
+    <script>
+      // Kurdo që klikohet në faqe, shfaq mesazhin
+      document.addEventListener("click", function() {
+        alert("Ju keni shtypur mausin");
+      });
+    </script>
+</body>
+</html>
